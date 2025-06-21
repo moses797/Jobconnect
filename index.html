@@ -4,7 +4,10 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>JobConnect Uganda</title>
-  <style>
+  <style><header class="site-header">
+  <img src="logo.png" alt="JobConnect Logo" class="site-logo">
+  <div class="menu-icon">≡</div>
+</header>
     body {
       font-family: 'Segoe UI', sans-serif;
       background-color: #ffffff;
@@ -93,7 +96,28 @@
       font-size: 0.9em;
       margin-top: 40px;
     }
-  </style>
+  </style>.site-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  background-color: #fff;
+  border-bottom: 1px solid #eee;
+}
+
+.site-logo {
+  height: 40px;
+}
+
+.menu-icon {
+  font-size: 28px;
+  background-color: #ffa500;
+  padding: 10px 15px;
+  border-radius: 8px;
+  cursor: pointer;
+  color: white;
+  font-weight: bold;
+}
 </head>
 <body>
 
